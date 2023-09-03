@@ -128,3 +128,7 @@ A
 A$w
 
 
+journals %>%
+  filter(ABS == 1,
+         ANVUR == 1) %>%
+  nrow()
